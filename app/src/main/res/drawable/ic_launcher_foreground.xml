@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Quran / Book Icon with Gold Accent -->
+    <path
+        android:fillColor="#D4AF37"
+        android:pathData="M34,26 C31.8,26 30,27.8 30,30 L30,78 C30,80.2 31.8,82 34,82 L74,82 C76.2,82 78,80.2 78,78 L78,30 C78,27.8 76.2,26 74,26 L34,26 Z M52,74 L38,74 L38,34 L52,34 L52,74 Z M70,74 L56,74 L56,34 L70,34 L70,74 Z" />
+</vector>

@@ -1,0 +1,190 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hafalquran.app"
+4    android:versionCode="2"
+5    android:versionName="1.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:7:5-76
+13-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:7:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:8:5-68
+14-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:9:5-77
+15-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+16-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:10:5-92
+16-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:10:22-89
+17    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+17-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:11:5-77
+17-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:11:22-74
+18    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+18-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:12:5-95
+18-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:12:22-92
+19
+20    <permission
+20-->[androidx.core:core:1.12.0] C:\Users\lenovo\.gradle\caches\transforms-4\e2f20ac7c117abc88b1d16934f6ca91d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.hafalquran.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.12.0] C:\Users\lenovo\.gradle\caches\transforms-4\e2f20ac7c117abc88b1d16934f6ca91d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.12.0] C:\Users\lenovo\.gradle\caches\transforms-4\e2f20ac7c117abc88b1d16934f6ca91d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.hafalquran.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.12.0] C:\Users\lenovo\.gradle\caches\transforms-4\e2f20ac7c117abc88b1d16934f6ca91d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.12.0] C:\Users\lenovo\.gradle\caches\transforms-4\e2f20ac7c117abc88b1d16934f6ca91d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:14:5-49:19
+27        android:name="com.hafalquran.app.HafalQuranApp"
+27-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:15:9-38
+28        android:allowBackup="true"
+28-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:16:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.12.0] C:\Users\lenovo\.gradle\caches\transforms-4\e2f20ac7c117abc88b1d16934f6ca91d\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+30        android:dataExtractionRules="@xml/data_extraction_rules"
+30-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:17:9-65
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:18:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:19:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:20:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:21:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:22:9-35
+37        android:theme="@style/Theme.HafalQuran" >
+37-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:23:9-48
+38        <activity
+38-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:26:9-36:20
+39            android:name="com.hafalquran.app.MainActivity"
+39-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:27:13-41
+40            android:exported="true"
+40-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:28:13-36
+41            android:label="@string/app_name"
+41-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:29:13-45
+42            android:theme="@style/Theme.HafalQuran"
+42-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:30:13-52
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:31:13-55
+44            <intent-filter>
+44-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:32:13-35:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:33:17-69
+45-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:33:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:34:17-77
+47-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:34:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <!-- Media3 Background Service for Audio Muroja'ah (Screen-off / Lockscreen / Bluetooth control) -->
+52        <service
+52-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:39:9-47:19
+53            android:name="com.hafalquran.app.service.QuranAudioService"
+53-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:40:13-54
+54            android:exported="true"
+54-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:41:13-36
+55            android:foregroundServiceType="mediaPlayback" >
+55-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:42:13-58
+56            <intent-filter>
+56-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:43:13-46:29
+57                <action android:name="androidx.media3.session.MediaSessionService" />
+57-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:44:17-86
+57-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:44:25-83
+58                <action android:name="android.media.browse.MediaBrowserService" />
+58-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:45:17-83
+58-->C:\Users\lenovo\Documents\PRO\hafal-quran\app\src\main\AndroidManifest.xml:45:25-80
+59            </intent-filter>
+60        </service>
+61
+62        <provider
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-4\4d1f6c9d3a754fea5eb7a34595862406\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+63            android:name="androidx.startup.InitializationProvider"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-4\4d1f6c9d3a754fea5eb7a34595862406\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+64            android:authorities="com.hafalquran.app.androidx-startup"
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-4\4d1f6c9d3a754fea5eb7a34595862406\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+65            android:exported="false" >
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-4\4d1f6c9d3a754fea5eb7a34595862406\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+66            <meta-data
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-4\4d1f6c9d3a754fea5eb7a34595862406\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-4\4d1f6c9d3a754fea5eb7a34595862406\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+68                android:value="androidx.startup" />
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\lenovo\.gradle\caches\transforms-4\4d1f6c9d3a754fea5eb7a34595862406\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lenovo\.gradle\caches\transforms-4\5bf67a570c4d5ef39049e8ed8016d847\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lenovo\.gradle\caches\transforms-4\5bf67a570c4d5ef39049e8ed8016d847\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+71                android:value="androidx.startup" />
+71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\lenovo\.gradle\caches\transforms-4\5bf67a570c4d5ef39049e8ed8016d847\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+74                android:value="androidx.startup" />
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+75        </provider>
+76
+77        <service
+77-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-4\206d388352bbbd35ebbfd0c1f018d2cf\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-4\206d388352bbbd35ebbfd0c1f018d2cf\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-4\206d388352bbbd35ebbfd0c1f018d2cf\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.6.1] C:\Users\lenovo\.gradle\caches\transforms-4\206d388352bbbd35ebbfd0c1f018d2cf\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+81
+82        <receiver
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+83            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+84            android:directBootAware="false"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+85            android:enabled="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+86            android:exported="true"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+87            android:permission="android.permission.DUMP" >
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+89                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+92                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+95                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+98                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\lenovo\.gradle\caches\transforms-4\db5a7401f063901b9b799d645d607e4e\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+99            </intent-filter>
+100        </receiver>
+101    </application>
+102
+103</manifest>

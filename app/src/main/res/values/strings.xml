@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hafal Quran</string>
+    <string name="tagline">Aplikasi Muroja\'ah &amp; Penghafal Al-Quran</string>
+    <string name="channel_name">Pemutar Audio Hafalan</string>
+    <string name="channel_description">Notifikasi saat muroja\'ah dan audio ayat diputar di latar belakang</string>
+</resources>

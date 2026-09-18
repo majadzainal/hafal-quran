@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686195123298",
+    "project_id": "hafal-quran-509007",
+    "storage_bucket": "hafal-quran-509007.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686195123298:android:94edcc8b9d9cb70b569d3b",
+        "android_client_info": {
+          "package_name": "com.hafalquran.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr7gaHzNbsaN9_kJiKfujOtcrDzGOkoGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

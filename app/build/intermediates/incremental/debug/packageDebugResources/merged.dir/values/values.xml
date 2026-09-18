@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#121816</color>
+    <color name="emerald_dark">#083B2C</color>
+    <color name="emerald_primary">#0D5C46</color>
+    <color name="gold_accent">#D4AF37</color>
+    <color name="gold_light">#F5E6B8</color>
+    <color name="surface_dark">#1B2421</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Hafal Quran</string>
+    <string name="channel_description">Notifikasi saat muroja\'ah dan audio ayat diputar di latar belakang</string>
+    <string name="channel_name">Pemutar Audio Hafalan</string>
+    <string name="gcm_defaultSenderId" translatable="false">686195123298</string>
+    <string name="google_api_key" translatable="false">AIzaSyBr7gaHzNbsaN9_kJiKfujOtcrDzGOkoGw</string>
+    <string name="google_app_id" translatable="false">1:686195123298:android:94edcc8b9d9cb70b569d3b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBr7gaHzNbsaN9_kJiKfujOtcrDzGOkoGw</string>
+    <string name="google_storage_bucket" translatable="false">hafal-quran-509007.firebasestorage.app</string>
+    <string name="project_id" translatable="false">hafal-quran-509007</string>
+    <string name="tagline">Aplikasi Muroja\'ah &amp; Penghafal Al-Quran</string>
+    <style name="Theme.HafalQuran" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/emerald_dark</item>
+        <item name="android:navigationBarColor">@color/emerald_dark</item>
+    </style>
+</resources>
